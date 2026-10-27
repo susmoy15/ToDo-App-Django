@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-aaa6j^nqjgo_gkw3n=)u)%=146x_44&k=!b90gg4t(z^n1z34r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'todo-app-django-56cr.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
@@ -63,7 +67,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
-        },
+        },    
     },
 ]
 
@@ -120,4 +124,4 @@ STATIC_URL = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField' 
