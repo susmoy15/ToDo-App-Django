@@ -23,5 +23,5 @@ urlpatterns = [
     path('', views.home, name = 'home'),
 
     #To Do
-    path('todo/', include('todo.urls'))
+    path('todo/', include('todo.urls'))  
 ]

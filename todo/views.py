@@ -31,7 +31,7 @@ def edit_task(request,pk):
         context = {
             'get_task': get_task,
         }
-        return render(request, 'edit_task.html',context)
+        return render(request, 'edit_task.html',context) 
      
 
 def delete_task(request,pk):
