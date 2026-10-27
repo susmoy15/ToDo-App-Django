@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
     'todo-app-django-56cr.onrender.com',
     'localhost',
     '127.0.0.1',
+    '.onrender.com',
 ]
 
 
